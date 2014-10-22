@@ -38,8 +38,9 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
-        <p><strong>我的Blog</strong></p>
-        <p><strong>最新文章</strong></p>
+        {% for post in site.posts %}
+        <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}"{{ post.title }}></a></li>
+        {% endfor %}
       </section>
 
     </div>
