@@ -1,6 +1,7 @@
 ---
-layout:    default
-title:    Blogging Like a Hacker
+layout: default
+title: Blogging Like a Hacker
+description: Beginning
 ---
 
 {{ page.title }}
