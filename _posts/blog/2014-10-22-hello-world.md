@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blogging Like a Hacker
+category: blog
 description: Beginning
 ---
 
