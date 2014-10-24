@@ -6,8 +6,8 @@ layout: home
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>Blog</span></a></li>
-            <li class="on" style="text-align:center"><a href="{{ site.baseurl }}/security"><span>Security</span></a></li>
-            <li style="text-align:right"><a href="{{ site.baseurl }}/project"><span>Project</span></a></li>
+            <li class="on" style="text-align:center"><a href="/security"><span>Security</span></a></li>
+            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
@@ -16,7 +16,7 @@ layout: home
         {% for post in site.categories.project %}
             <li>
                 <h2>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
                 <div class="title-desc">{{ post.description }}</div>
             </li>
