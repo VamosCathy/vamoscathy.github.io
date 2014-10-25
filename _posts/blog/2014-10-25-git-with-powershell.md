@@ -9,7 +9,7 @@ description: Powershell为windows下的编程提供了如同LInux终端般的命
 
 ## 复制Linux下的操作体验——Windows Powershell
 
-直到下载了Github的windows下图形界面才知道windows已经自带了Powershell这样一个强大存在。关于它的基本介绍可以查看[PowerShell-wiki][1]，简单来说，在这样一个命令行界面里面，你可以愉快地在Windows下使用Linux命令，而且界面要比cmd好看多倍，就像下面这样：
+直到下载了Github的windows下图形界面才知道windows已经自带了Powershell这样一个强大存在。关于它的基本介绍可以查看[PowerShell-wiki](http://zh.wikipedia.org/wiki/Windows_PowerShell)，简单来说，在这样一个命令行界面里面，你可以愉快地在Windows下使用Linux命令，而且界面要比cmd好看多倍，就像下面这样：
 
 ![alt text](/images/Windows_PowerShell_1.0_PD.png "PowerShell-wiki")
 
@@ -66,7 +66,7 @@ github代码仓库对于修改提交代码分了不同的分支和状态，如�
 
 点击帮助->Show SSH key->Generate Key，复制生成的密钥，到github个人页面的设置，选择SSH keys
 
-![alt text](/images/gitkeys1.jpg)
+![alt text](/images/gitkeys.jpg)
 
 点击Add SSH key添加进去即可。
 
