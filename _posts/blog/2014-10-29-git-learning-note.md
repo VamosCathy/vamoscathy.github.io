@@ -75,7 +75,9 @@ git基础中最重要的是明白文件状态变化的周期，如下图：
 ![git add 4][9]
 
 ###第四步，提交暂存区文件——git commit -m "summary"
-当一段工作完成，我们就需要将暂存区的文件提交。注意，这里的提交并不是上传到github网站上的意思，而是本地仓库中正式的文件版本的含义。git规定，每一次的提交都必须写一段summary，表明本次提交更新的内容是什么（当然啦你可以随便写一些话，只要写了就行XD）。比较方便的命令是：`git commit -m "summary"`，其中summary就是你可以自由发挥的地方。另外，你可以只用`git commit`提交，这时git就会打开一个默认的文本编辑器（如vim），同样要求你写summary。
+当一段工作完成，我们就需要将暂存区的文件提交。注意，这里的提交并不是上传到github网站上的意思，而是本地仓库中正式的文件版本的含义。git规定，每一次的提交都必须写一段summary，表明本次提交更新的内容是什么（当然啦你可以随便写一些话，只要写了就行XD）。比较方便的命令是：`git commit -m "summary"`，其中summary就是你可以自由发挥的地方。另外，你可以只用`git commit`提交，这时git就会打开一个默认的文本编辑器（如vim），同样要求你写summary。下图就是我用第一种方法提交后的结果：
+
+![git commit][11]
 
 OK，到目前为止，本地git的使用方法就是如此，掌握了基本原理和命令还是比较简单的。
 
@@ -94,3 +96,4 @@ OK，到目前为止，本地git的使用方法就是如此，掌握了基本原
 [8]: /images/git-note3.jpg "git add 3"
 [9]: /images/git-note4.jpg "git add 4"
 [10]: http://blog.jobbole.com/78960
+[11]: /images/git-commit.jpg "git commit"
