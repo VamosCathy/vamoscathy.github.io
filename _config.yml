@@ -1,5 +1,5 @@
 ### Site info:
-title: 随风~TSUBASA~ 
+title: 随风TSUBASA 
 tagline: Cathy Pan's personal blog
 author: VamosCathy 
 email: yl.pan.pro@gmail.com
@@ -16,7 +16,7 @@ github_username:  VamosCathy
 disqus_shortname: vamoscathy
 favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Cathy Pan. Here is about what I'm thinking and doing. # these are shown on aboutme-sidebar.
-aboutme_photo: http://ww3.sinaimg.cn/mw690/64eeabf3tw1e5s39cl6ndj21hc0u00ws.jpg # your photo.
+aboutme_photo: http://ww3.sinaimg.cn/mw690/64eeabf3gw1dt00tnldgzj.jpg # your photo.
 
 
 ### Site setting:
@@ -67,4 +67,4 @@ Blogroll:
 ### Build settings
 markdown: kramdown
 highlighter: pygments
-paginate: 5
+paginate: 7

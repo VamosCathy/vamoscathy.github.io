@@ -2,7 +2,7 @@
 layout: post
 title: git学习笔记
 category: blog
-description: git一下有意思~
+description: 上一篇文章讲述了如何在windows里面搭建一个界面美观友好的git使用环境，这一篇就来写一下自己到目前为止git的学习情况。git使用教程网上有很多，包括github官方也有git的教程书[《progit》][2]，所以这篇笔记就从我学习的角度上来总结一下git用法。
 ---
 [上一篇][1]文章讲述了如何在windows里面搭建一个界面美观友好的git使用环境，这一篇就来写一下自己到目前为止git的学习情况。git使用教程网上有很多，包括github官方也有git的教程书[《progit》][2]，所以这篇笔记就从我学习的角度上来总结一下git用法。
 ##有关git
