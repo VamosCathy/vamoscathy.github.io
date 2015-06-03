@@ -1,0 +1,70 @@
+### Site info:
+title: 随风~TSUBASA~ 
+tagline: Cathy Pan's personal blog
+author: VamosCathy 
+email: yl.pan.pro@gmail.com
+description: "All about my life,study and work." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "VamosCathy"
+#baseurl: "/freshman21" # the subpath of your site, e.g. /blog
+url: "http://vamoscathy.github.io" # the base hostname & protocol for your site
+locale: en_US 
+encoding: "utf-8"
+
+### Personal info and site tools info:
+twitter_username: vamoscathy
+github_username:  VamosCathy
+disqus_shortname: vamoscathy
+favicon:     "/images/favicon.ico"
+aboutme: Hi, this is Cathy Pan. Here is about what I'm thinking and doing. # these are shown on aboutme-sidebar.
+aboutme_photo: http://ww3.sinaimg.cn/mw690/64eeabf3tw1e5s39cl6ndj21hc0u00ws.jpg # your photo.
+
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "后一页"
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+    - name: 随风~TSUBASA~ 
+      href: http://vamoscathy.github.io
+      title: 随风~TSUBASA~ 
+    - name: My GitHub
+      href: http://github.com/VamosCathy
+      title: My GitHub
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
