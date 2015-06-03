@@ -19,7 +19,7 @@ description: 在网站上显示文档的时候，pdf格式往往是比较便捷�
 ## 二、安装OpenOffice
 服务器通常情况下都是没有图形界面的。网上查资料的时候发现有些安装方法截然不同。我采用的是[参考文章1][1]的方法，具体步骤如下：
 
-### 1.从仓库安装OpenOffice的headless版本
+### Step 1.从仓库安装OpenOffice的headless版本
 
 {% highlight Bash shell scripts %}
 sudo yum install openoffice.org-headless openoffice.org-writer openoffice.org-draw
@@ -27,7 +27,7 @@ sudo yum install openoffice.org-headless openoffice.org-writer openoffice.org-dr
 
 其中后面两个包是必须的，否则会得到`This url is not supported`这样的报错；
 
-### 2.创建一个shell脚本使其能够作为服务运行：
+### Step 2.创建一个shell脚本使其能够作为服务运行：
 
 {% highlight Bash shell scripts %}
 sudo vim /etc/init.d/openoffice.sh
@@ -81,13 +81,13 @@ exit 0
 
 保存并退出；
 
-### 3.使该脚本能被运行
+### Step 3.使该脚本能被运行
 
 {% highlight Bash shell scripts %}
 sudo chmod 0755 /etc/init.d/openoffice.sh
 {% endhighlight %}
 
-### 4.使该服务能在开机时自动运行
+### Step 4.使该服务能在开机时自动运行
 
 {% highlight Bash shell scripts %}
 sudo chkconfig - -add openoffice.sh
@@ -96,13 +96,13 @@ sudo chkconfig - -add openoffice.sh
 有关chkconfig的用法可以参考[这篇文章][2]。
 在Ubuntu下命令为：`sudo update-rc.d openoffice.sh defaults`
 
-### 5.运行该脚本开启服务
+### Step 5.运行该脚本开启服务
 
 {% highlight Bash shell scripts %}
 sudo /etc/init.d/openoffice.sh start
 {% endhighlight %}
 
-### 6.检查OpenOffice是否在运行
+### Step 6.检查OpenOffice是否在运行
 
 {% highlight Bash shell scripts %}
 netstat -nap | grep office
@@ -117,7 +117,7 @@ tcp        0      0 127.0.0.1:8100              0.0.0.0:*                   LIST
 ## 三、安装UNOCONV
 unoconv是一个不错的文档转换工具。具体介绍可以参考其[官网][3]。安装步骤如下：
 
-### 1.安装pyuno
+### Step 1.安装pyuno
 由于UNOCONV使用python，因此需要安装其依赖——OpenOffice中的pyuno:
 
 {% highlight Bash shell scripts %}
@@ -126,7 +126,7 @@ sudo yum install openoffice.org-pyuno
 
 另外再下几个包，例如支持中文的`openoffice.org-langpack-zh_CN.x86_64`以及`openoffice.org-xsltfilter.x86_64`。之后如果有相关依赖可以使用`yum search openoffice`进行搜索。
 
-### 2.下载安装UNOCONV
+### Step 2.下载安装UNOCONV
 RedHat系列rpm包下载页面[在此][4]，我下载的是0.5版本：
 
 {% highlight Bash shell scripts %}
@@ -158,14 +158,14 @@ unoconv -f pdf test.doc
 
 如果测试的文档中包含中文，那么在生成的pdf中中文是不会被正确显示的，原因就在于没有安装MS中文支持。可以按照如下步骤安装支持，其中用到的软件都是开源或者有使用许可的。其中关于是否可以使用msttcorefonts可以参见[这个回答][6]。
 
-### 1.安装CentOS中的中文支持
+### Step 1.安装CentOS中的中文支持
 注意在CentOS 6中安装和之前的方法不同，具体可以参考[How to Install Asian Fonts on Red Hat & CentOS Linux Distributions][7]。具体命令为：
 
 {% highlight Bash shell scripts %}
 yum groupinstall "Chinese Support"
 {% endhighlight %}
 
-### 2.安装微软中文字体支持：[cabextract][8]和[msttcorefonts][9]
+### Step 2.安装微软中文字体支持：[cabextract][8]和[msttcorefonts][9]
 
 #### 2.1 安装cabextract：
 {% highlight Bash shell scripts %}
@@ -194,7 +194,7 @@ rpmbuild -bb msttcorefonts-2.5-1.spec
 rpm -ivh $HOME/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 {% endhighlight %}
 
-### 3. 更新字体缓存
+### Step 3. 更新字体缓存
 
 {% highlight Bash shell scripts %}
 fc-cache -f -v
