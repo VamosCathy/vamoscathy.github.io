@@ -5,7 +5,7 @@ categories: ProgrammingStudy
 tags: 
  - string
 comments: true
-modified:2015-6-9
+modified: 2015-6-9
 description: 这段时间我通过阅读《The Art of Programming By July》来练习编程。这一篇是有关字符串包含问题的学习笔记。
 ---
 
