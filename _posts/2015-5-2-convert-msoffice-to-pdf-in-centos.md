@@ -9,7 +9,7 @@ tags:
 comments: true
 description: 在网站上显示文档的时候，pdf格式往往是比较便捷的处理格式。而平时在编辑时我们使用MSOffice更为便捷。在这种情况下，我们需要一种自动的将Office文档转换为pdf的方式。本文就是介绍了在CentOS6系统下Office转pdf工具的安装使用方法。
 ---
-
+*更新：在CentOS上安装OpenOffice的时候其实默认安装的是Libre Office，所以之后如果要用yum装相关的扩展，需要指定libreoffice。比如安装字体扩展xsltfilter要写成“libreoffice-xsltfilter”而不是"openoffice.org-xsltfilter"。我已经对下文相关地方做出了修改。*
 
 将Office文件转成其他格式并没有想象的那么方便，比较好的不需要使用商业软件的方法需要在服务器上安装OpenOffice或者LibreOffice，这里记录一下所需软件的安装过程：
 
@@ -124,7 +124,7 @@ unoconv是一个不错的文档转换工具。具体介绍可以参考其[官网
 sudo yum install openoffice.org-pyuno
 {% endhighlight %}
 
-另外再下几个包，例如支持中文的`openoffice.org-langpack-zh_CN.x86_64`以及`openoffice.org-xsltfilter.x86_64`。之后如果有相关依赖可以使用`yum search openoffice`进行搜索。
+另外再下几个包，例如支持中文的`libreoffice-langpack-zh_CN.x86_64`以及`libreoffice-xsltfilter.x86_64`。之后如果有相关依赖可以使用`yum search libreoffice`进行搜索。
 
 ### Step 2.下载安装UNOCONV
 RedHat系列rpm包下载页面[在此][4]，我下载的是0.5版本：
