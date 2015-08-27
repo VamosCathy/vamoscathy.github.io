@@ -90,7 +90,7 @@ sudo chmod 0755 /etc/init.d/openoffice.sh
 ### Step 4.使该服务能在开机时自动运行
 
 {% highlight Bash shell scripts %}
-sudo chkconfig - -add openoffice.sh
+sudo chkconfig --add openoffice.sh
 {% endhighlight %}
 
 有关chkconfig的用法可以参考[这篇文章][2]。
