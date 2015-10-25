@@ -1,10 +1,10 @@
 ---
-layout:post
-title:Apple Music为你推荐
-comments:true
-tags:music
-description:Apple Music,萌萌哒，棒棒哒~
-categories:blog
+layout: post
+title: Apple Music为你推荐
+comments: true
+tags: music
+description: Apple Music,萌萌哒，棒棒哒~
+categories: blog
 ---
 自从Apple Music国服开服后，我用它听音乐的时间已经和用网易云音乐的时间一半一半了。一般我都听“为你推荐”这块，主要是它推荐的歌单我的喜爱程度还比较高，不过最近发现它给的歌单标题也很好玩，比如今天打开看到最新的推荐歌单是这样的：
 
