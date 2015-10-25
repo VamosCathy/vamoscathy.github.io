@@ -8,7 +8,7 @@ categories: blog
 ---
 自从Apple Music国服开服后，我用它听音乐的时间已经和用网易云音乐的时间一半一半了。一般我都听“为你推荐”这块，主要是它推荐的歌单我的喜爱程度还比较高，不过最近发现它给的歌单标题也很好玩，比如今天打开看到最新的推荐歌单是这样的：
 
-![paozao](/images/apple-music/paozao)
+![paozao](/images/apple-music/paozao.jpg)
 
 哈哈，一定是因为今天是星期天，它们觉得泡澡是个不错的放松心情的好主意。再看前两天的这个：
 
