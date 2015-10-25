@@ -12,43 +12,43 @@ categories: blog
 
 哈哈，一定是因为今天是星期天，它们觉得泡澡是个不错的放松心情的好主意。再看前两天的这个：
 
-![jianshen](/images/apple-music/jianshen)
+![jianshen](/images/apple-music/jianshen.jpg)
 
 确实运动和音乐是分不开的。
 
 再前面的连续几天的歌单，都是有关分手和失恋。。。嗯，确实是人之常态啊：
 
-![shilian](/images/apple-music/shilian)
+![shilian](/images/apple-music/shilian.jpg)
 
-![fenshou](/images/apple-music/fenshou)
+![fenshou](/images/apple-music/fenshou.jpg)
 
-![gudu](/images/apple-music/gudu)
+![gudu](/images/apple-music/gudu.jpg)
 
 音乐除了表达消极情绪，关键还能振奋人心啊，所以同样的激励歌单也是挺多的：
 
-![yonggan](/images/apple-music/yonggan)
+![yonggan](/images/apple-music/yonggan.jpg)
 
-![zhangda](/images/apple-music/zhangda)
+![zhangda](/images/apple-music/zhangda.jpg)
 
-![aiziji](/images/apple-music/aiziji)
+![aiziji](/images/apple-music/aiziji.jpg)
 
-![jili](/images/apple-music/jili)
+![jili](/images/apple-music/jili.jpg)
 
 除了上面比较情绪化的歌单，其他大部分都是关于某个歌星的个人歌单，比如这样：
 
-![ch](/images/apple-music/ch)
+![ch](/images/apple-music/ch.jpg)
 
 *（等等，据说最近霉霉对CH提了分手，大家都说霉霉又可以写好几首歌了。。。）*
 
-![neyo](/images/apple-music/neyo)
+![neyo](/images/apple-music/neyo.jpg)
 
-![bee](/images/apple-music/bee)
+![bee](/images/apple-music/bee.jpg)
 
 还有一些歌星的个人，呃，跑龙套歌单：
 
-![juicyj](/images/apple-music/juicyj)
+![juicyj](/images/apple-music/juicyj.jpg)
 
-![weeknd](/images/apple-music/weeknd)
+![weeknd](/images/apple-music/weeknd.jpg)
 
 *（话说最近确实挺喜欢盆栽精的歌哒~）*
 
@@ -56,7 +56,7 @@ categories: blog
 
 最后来个能够体现霉霉高质量合作伙伴的歌单：
 
-![taylor](/images/apple-music/taylor)
+![taylor](/images/apple-music/taylor.jpg)
 
 看了十几个歌单中唯一保持英文介绍的歌单，内页具体介绍是这样的：
 
