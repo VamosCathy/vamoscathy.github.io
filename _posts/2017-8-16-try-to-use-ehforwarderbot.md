@@ -2,9 +2,11 @@
 layout: post
 title: Try to Use EH Forwarder Bot (with CentOS)
 comments: true
-tags: tech
-description: Make life cool~
-categories: blog
+tags:
+- Telegram
+- Bot
+description: Make life cool
+categories: tech
 ---
 EH Forwarder Bot can receive and send WeChat information on Telegram. See [EH Forwarder Bot – 在 Telegram 收发「微信」消息][1]. It's full doc is [EH Forwarder Bot][2]. For some reasons, I need a VPS to build the bot for me. This article is a note for the whole progress I build it.
 
@@ -23,6 +25,8 @@ In order to use EFB, all you should do is editing `config.py`, which described i
 
 1. Setup Telegram Master.
 2. Setup WeChat slave.
+
+### 3. Something Inconvenient
 
 
 [1]: http://www.appinn.com/eh-forwarder-bot/

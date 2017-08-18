@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About
-comments: yes
+comments: no
 permalink: /about/
 ---
 
 
 ## Yuling Pan
 
-Master Student, Networking and Distributed Computing Laboratory, Zhejiang Gongshang University(ZJGSU)
+Information Security Consultant, indie engineer.
 
 Email: yl.pan.pro@gmail.com
 
@@ -16,7 +16,7 @@ Email: yl.pan.pro@gmail.com
 Information Security,Cloud Computing
 
 ### EDUCATION
-September 2013 - Present: Master(expected),Computer Science & Technology,**Zhejiang Gongshang University(ZJGSU)**.Tutor:[Jun Shao][1]
+September 2013 - 2016: Master,Computer Science & Technology,**Zhejiang Gongshang University(ZJGSU)**.Tutor:[Jun Shao][1]
 
 September 2008 - June 2012: Bachelor of Information Management & Information System,**Nanjing University of Post & Telecommunications(NUPT)**
 
@@ -27,6 +27,3 @@ September 2008 - June 2012: Bachelor of Information Management & Information Sys
 
 [1]: http://ndc.zjgsu.edu.cn/~jshao/index.htm
 [2]: http://zh.wikipedia.org/wiki/费尔南多·阿隆索
-
-
-
