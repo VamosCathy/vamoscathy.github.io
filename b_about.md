@@ -16,7 +16,7 @@ Email: yl.pan.pro@gmail.com
 Information Security,Cloud Computing
 
 ### EDUCATION
-September 2013 - 2016: Master,Computer Science & Technology,**Zhejiang Gongshang University(ZJGSU)**.Tutor:[Jun Shao][1]
+September 2013 - 2016: Master of Computer Science & Technology,**Zhejiang Gongshang University(ZJGSU)**.Tutor:[Jun Shao][1]
 
 September 2008 - June 2012: Bachelor of Information Management & Information System,**Nanjing University of Post & Telecommunications(NUPT)**
 
